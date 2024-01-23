@@ -42,13 +42,13 @@ export default function Home() {
       </div>
       <div id='screen2' className='w-full flex flex-col items-center bg-[#000A14] bg-no-repeat bg-right text-white' style={{backgroundImage: "url('/arrow.png')"}}>
         <div className='w-full lg:w-2/3 my-12 lg:my-24 flex flex-col items-center'>
-          <div className='w-full flex justify-between items-center p-4'>
+          <div className='w-5/6 flex justify-between items-center p-4'>
             <h1 className='text-4xl lg:text-6xl tracking-wide' style={{fontFamily: 'Knight Warrior'}}>MINI GAME TOURNAMENTS</h1>
             <div className='bg-[#030D17] p-4 flex justify-center items-center ml-8 w-full lg:w-max border-b border-teal-200 rounded-xl'>
               <button className='text-sm lg:text-base bg-teal-800 border border-teal-200 rounded p-2 font-medium w-full' onClick={() => window.open('https://discord.gg/globalconquest')}>Join Discord</button>
             </div>
           </div>
-          <div className='my-8 w-[110%]'>
+          <div className='flex justify-center my-8 w-[110%]'>
             <img src='/content.png'/>
           </div>
         </div>
